@@ -18,10 +18,7 @@ function App() {
   const listItems = allItems.map((item, index) =>
     < li key={index}> {item}<button onClick={() => deleteItem(index)}>delete</button></li >)
 
-  /*const listItems = people.map(person =>
-    < li > { person }</ >
-  );
-  return <ul>{listItems}</ul>;*/
+  
 
   return (
     <>
